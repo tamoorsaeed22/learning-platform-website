@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnHub - Online Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#"><i class="fas fa-graduation-cap"></i> LearnHub</a>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for courses...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#courses">Courses</a>
+                <a href="#categories">Categories</a>
+                <a href="#about">About</a>
+                <a href="#" class="btn">Sign In</a>
+                <a href="#" class="btn primary">Sign Up</a>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Learn without limits</h1>
+            <p>Start, switch, or advance your career with more than 5,000 courses, Professional Certificates, and degrees from world-class universities and companies.</p>
+            <div class="hero-buttons">
+                <a href="#" class="btn primary">Join for Free</a>
+                <a href="#" class="btn secondary">Try for Business</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/teaching-students-online-internet-learning-computer-programming-online-it-courses-best-online-it-training-online-certification-courses-concept-f-2M04906.jpg" alt="Learning illustration">
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="partners">
+        <h2>Trusted by over 300 leading universities and companies</h2>
+        <div class="partner-logos">
+            <img src="images/Stanford-Emblema.png" alt="Stanford">
+            <img src="images/Google-Logo.png" alt="Google">
+            <img src="images/R.png" alt="IBM">
+            <img src="images/R (1).png" alt="MIT">
+            <img src="images/Microsoft-Logo-2012-present.jpg" alt="Microsoft">
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses">
+        <div class="section-header">
+            <h2>Popular Courses</h2>
+            <a href="#" class="see-all">See all</a>
+        </div>
+        <div class="course-grid" id="courseGrid">
+            <!-- Courses will be loaded here via JavaScript -->
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="categories">
+        <h2>Top Categories</h2>
+        <div class="category-grid">
+            <div class="category-card" data-category="business">
+                <i class="fas fa-briefcase"></i>
+                <h3>Business</h3>
+                <p>1,200 Courses</p>
+            </div>
+            <div class="category-card" data-category="computer-science">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Computer Science</h3>
+                <p>1,800 Courses</p>
+            </div>
+            <div class="category-card" data-category="data-science">
+                <i class="fas fa-chart-line"></i>
+                <h3>Data Science</h3>
+                <p>900 Courses</p>
+            </div>
+            <div class="category-card" data-category="health">
+                <i class="fas fa-heartbeat"></i>
+                <h3>Health</h3>
+                <p>700 Courses</p>
+            </div>
+            <div class="category-card" data-category="social-sciences">
+                <i class="fas fa-users"></i>
+                <h3>Social Sciences</h3>
+                <p>600 Courses</p>
+            </div>
+            <div class="category-card" data-category="personal-development">
+                <i class="fas fa-brain"></i>
+                <h3>Personal Development</h3>
+                <p>500 Courses</p>
+            </div>
+            <div class="category-card" data-category="arts">
+                <i class="fas fa-palette"></i>
+                <h3>Arts & Humanities</h3>
+                <p>400 Courses</p>
+            </div>
+            <div class="category-card" data-category="language">
+                <i class="fas fa-language"></i>
+                <h3>Language Learning</h3>
+                <p>300 Courses</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <h2>What our learners say</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial active">
+                <div class="quote">
+                    "LearnHub has changed my life. I was able to switch careers from marketing to data science thanks to their comprehensive courses."
+                </div>
+                <div class="author">
+                    <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Sarah J.">
+                    <div>
+                        <h4>Sarah J.</h4>
+                        <p>Data Analyst at Google</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="quote">
+                    "The flexibility to learn at my own pace while working full-time was exactly what I needed to advance my career."
+                </div>
+                <div class="author">
+                    <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Michael T.">
+                    <div>
+                        <h4>Michael T.</h4>
+                        <p>Software Developer at Amazon</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="quote">
+                    "I never thought I could learn so much online. The quality of instruction rivals what I experienced in college."
+                </div>
+                <div class="author">
+                    <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Priya K.">
+                    <div>
+                        <h4>Priya K.</h4>
+                        <p>UX Designer at Facebook</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <div class="cta-content">
+            <h2>Take the next step toward your personal and professional goals with LearnHub.</h2>
+            <p>Join now to receive personalized recommendations from the full LearnHub catalog.</p>
+            <a href="#" class="btn primary">Join for Free</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>LearnHub</h3>
+                <p>Learn without limits and advance your career with courses, certificates, and degrees from world-class universities and companies.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Affiliates</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Press</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Accessibility</a></li>
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="#">Terms</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Mobile App</h3>
+                <div class="app-download">
+                    <a href="#"><img src="images/app-store-logo-free-vector.jpg" alt="App Store"></a>
+                    <a href="#"><img src="images/15-154065_google-play-logo-png.png" alt="Google Play"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 LearnHub, Inc. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
